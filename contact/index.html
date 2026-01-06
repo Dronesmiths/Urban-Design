@@ -4,7 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Urban Design & Remodel | West Jordan, UT</title>
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Contact Us - Urban Design & Remodel | Free Estimates West Jordan UT</title>
+    <meta name="description"
+        content="Contact Urban Design & Remodel for your home remodeling project in West Jordan, UT. Free estimates on kitchen, bathroom, and basement remodeling. Call (801) 555-1234 today!">
+    <meta name="keywords"
+        content="contact remodeling contractor West Jordan, free estimate kitchen remodel, bathroom renovation quote, basement finishing West Jordan">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://urbandesignremodel.com/contact/">
+
+    <!-- Schema Markup - Contact Page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "mainEntity": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "Urban Design & Remodel",
+        "telephone": "(801) 555-1234",
+        "email": "info@urbandesignremodel.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "West Jordan",
+          "addressRegion": "UT",
+          "addressCountry": "US"
+        }
+      }
+    }
+    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +45,7 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <link rel="stylesheet" href="../styles.css?v=1.4">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body>
@@ -24,7 +53,9 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <a href="/" class="logo">Urban Design & <span>Remodel</span></a>
+            <a href="/" class="logo">
+                <img src="../images/logo.png" alt="Urban Design & Remodel" style="height: 50px; width: auto;">
+            </a>
             <nav class="nav-menu">
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -34,9 +65,9 @@
                 </ul>
             </nav>
             <div class="header-actions">
-                <a href="https://www.google.com/maps/search/?api=1&query=Urban+Design+%26+Remodel+West+Jordan+UT"
-                    target="_blank" class="phone-link mobile-hide" style="margin-right: 10px;"><i
-                        class="fas fa-map-marker-alt"></i> West Jordan, UT</a>
+                <a href="https://www.google.com/maps/search/?api=1&query=West+Jordan+UT" target="_blank"
+                    class="phone-link mobile-hide" style="margin-right: 10px;"><i class="fas fa-map-marker-alt"></i>
+                    West Jordan, UT</a>
                 <a href="tel:8015551234" class="phone-link mobile-hide"><i class="fas fa-phone"></i> (801) 555-1234</a>
                 <a href="/contact/" class="btn btn-primary">Get a Quote</a>
                 <button class="mobile-menu-btn" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
@@ -44,58 +75,306 @@
         </div>
     </header>
 
-    <!-- Page Hero -->
-    <section class="hero page-hero">
+    <!-- Hero Section -->
+    <section class="hero page-hero"
+        style="background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.8)), url('../images/finished-basement-living.png'); background-size: cover; background-position: center; min-height: 400px; display: flex; align-items: center;">
         <div class="container">
-            <h1>Contact Us</h1>
-            <p>Get in touch for a free estimate.</p>
+            <nav style="margin-bottom: 20px;">
+                <a href="/" style="color: var(--white); opacity: 0.8;">Home</a>
+                <span style="color: var(--white); opacity: 0.8; margin: 0 10px;">/</span>
+                <span style="color: var(--accent-yellow);">Contact Us</span>
+            </nav>
+            <h1 style="font-size: 3rem; margin-bottom: 20px;">Get Your Free Estimate</h1>
+            <p style="font-size: 1.2rem; max-width: 700px; opacity: 0.95;">Ready to transform your home? Contact Urban
+                Design & Remodel today for a free, no-obligation estimate on your remodeling project.</p>
         </div>
     </section>
 
-    <!-- Contact Content -->
-    <section class="features">
+    <!-- Contact Methods -->
+    <section style="padding: 80px 0; background: var(--white);">
         <div class="container">
-            <div class="features-grid" style="grid-template-columns: 1fr 1fr;">
-                <!-- Contact Info -->
-                <div class="feature-card" style="text-align: left;">
-                    <h2 style="margin-bottom: 20px;">Get a Quote</h2>
-                    <p style="margin-bottom: 20px;">We'd love to hear from you. Give us a call or fill out the form to
-                        schedule a service.</p>
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p style="margin-top: 10px; color: var(--text-light);">Multiple ways to reach us for your remodeling
+                    needs</p>
+            </div>
 
-                    <div style="margin-bottom: 15px;">
-                        <i class="fas fa-phone-alt" style="color: var(--primary-green); margin-right: 10px;"></i>
-                        <strong style="font-size: 1.2rem;">(801) 555-1234</strong>
-                    </div>
-                    <div style="margin-bottom: 15px;">
-                        <i class="fas fa-envelope" style="color: var(--primary-green); margin-right: 10px;"></i>
-                        <span>info@urbandesignremodel.com</span>
-                    </div>
-                </div>
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 50px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+                <!-- Phone -->
+                <a href="tel:8015551234"
+                    style="background: var(--bg-green-tint); padding: 40px; border-radius: 15px; text-align: center; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;"
+                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                    <div style="font-size: 3rem; color: var(--primary-green); margin-bottom: 15px;"><i
+                            class="fas fa-phone-alt"></i></div>
+                    <h3 style="color: var(--text-dark); margin-bottom: 10px; font-size: 1.3rem;">Call Us</h3>
+                    <p style="color: var(--primary-green); font-size: 1.4rem; font-weight: 700; margin: 10px 0;">
+                        (801) 555-1234</p>
+                    <p style="color: var(--text-light); margin: 0; font-size: 0.95rem;">Mon-Fri: 8am-6pm<br>Sat:
+                        9am-4pm</p>
+                </a>
 
-                <!-- Contact Form (Placeholder) -->
-                <div class="feature-card" style="text-align: left;">
-                    <form>
-                        <div style="margin-bottom: 15px;">
-                            <label style="display: block; margin-bottom: 5px; font-weight: 600;">Name</label>
-                            <input type="text"
-                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;"
-                                placeholder="Your Name">
+                <!-- Email -->
+                <a href="mailto:info@urbandesignremodel.com"
+                    style="background: var(--bg-green-tint); padding: 40px; border-radius: 15px; text-align: center; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;"
+                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                    <div style="font-size: 3rem; color: var(--primary-green); margin-bottom: 15px;"><i
+                            class="fas fa-envelope"></i></div>
+                    <h3 style="color: var(--text-dark); margin-bottom: 10px; font-size: 1.3rem;">Email Us</h3>
+                    <p style="color: var(--primary-green); font-size: 1.2rem; font-weight: 600; margin: 10px 0;">
+                        info@urbandesignremodel.com</p>
+                    <p style="color: var(--text-light); margin: 0; font-size: 0.95rem;">We respond within 24 hours</p>
+                </a>
+
+                <!-- Google My Business -->
+                <a href="https://www.google.com/maps/search/?api=1&query=Urban+Design+%26+Remodel+West+Jordan+UT"
+                    target="_blank" rel="noopener noreferrer"
+                    style="background: var(--bg-green-tint); padding: 40px; border-radius: 15px; text-align: center; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;"
+                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                    <div style="font-size: 3rem; color: var(--primary-green); margin-bottom: 15px;"><i
+                            class="fab fa-google"></i></div>
+                    <h3 style="color: var(--text-dark); margin-bottom: 10px; font-size: 1.3rem;">Find Us on Google</h3>
+                    <p style="color: var(--primary-green); font-size: 1.1rem; font-weight: 600; margin: 10px 0;">View
+                        Our Business</p>
+                    <p style="color: var(--text-light); margin: 0; font-size: 0.95rem;">Read reviews & get directions
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info -->
+    <section style="padding: 80px 0; background: var(--bg-light);">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; max-width: 1200px; margin: 0 auto;">
+                <!-- Contact Form -->
+                <div>
+                    <h2 style="color: var(--primary-green); margin-bottom: 20px; font-size: 2rem;">Request a Free
+                        Estimate</h2>
+                    <p style="color: var(--text-light); margin-bottom: 30px; line-height: 1.7;">Fill out the form below
+                        and we'll get back to you within 24 hours to discuss your remodeling project and schedule a free
+                        consultation.</p>
+
+                    <form
+                        style="background: var(--white); padding: 40px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+                        <div style="margin-bottom: 20px;">
+                            <label
+                                style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-dark);">
+                                <i class="fas fa-user" style="color: var(--primary-green); margin-right: 8px;"></i>Full
+                                Name *
+                            </label>
+                            <input type="text" required
+                                style="width: 100%; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; transition: border-color 0.3s ease;"
+                                placeholder="John Smith" onfocus="this.style.borderColor='var(--primary-green)'"
+                                onblur="this.style.borderColor='#e0e0e0'">
                         </div>
-                        <div style="margin-bottom: 15px;">
-                            <label style="display: block; margin-bottom: 5px; font-weight: 600;">Phone</label>
-                            <input type="tel"
-                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;"
-                                placeholder="Your Phone Number">
+
+                        <div style="margin-bottom: 20px;">
+                            <label
+                                style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-dark);">
+                                <i class="fas fa-phone"
+                                    style="color: var(--primary-green); margin-right: 8px;"></i>Phone
+                                Number *
+                            </label>
+                            <input type="tel" required
+                                style="width: 100%; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; transition: border-color 0.3s ease;"
+                                placeholder="(801) 555-1234" onfocus="this.style.borderColor='var(--primary-green)'"
+                                onblur="this.style.borderColor='#e0e0e0'">
                         </div>
-                        <div style="margin-bottom: 15px;">
-                            <label style="display: block; margin-bottom: 5px; font-weight: 600;">Message</label>
+
+                        <div style="margin-bottom: 20px;">
+                            <label
+                                style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-dark);">
+                                <i class="fas fa-envelope"
+                                    style="color: var(--primary-green); margin-right: 8px;"></i>Email
+                                Address
+                            </label>
+                            <input type="email"
+                                style="width: 100%; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; transition: border-color 0.3s ease;"
+                                placeholder="john@example.com" onfocus="this.style.borderColor='var(--primary-green)'"
+                                onblur="this.style.borderColor='#e0e0e0'">
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
+                            <label
+                                style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-dark);">
+                                <i class="fas fa-home"
+                                    style="color: var(--primary-green); margin-right: 8px;"></i>Service
+                                Needed
+                            </label>
+                            <select
+                                style="width: 100%; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem; transition: border-color 0.3s ease;"
+                                onfocus="this.style.borderColor='var(--primary-green)'"
+                                onblur="this.style.borderColor='#e0e0e0'">
+                                <option value="">Select a service...</option>
+                                <option value="kitchen">Kitchen Remodeling</option>
+                                <option value="bathroom">Bathroom Renovation</option>
+                                <option value="basement">Basement Finishing</option>
+                                <option value="cabinetry">Custom Cabinetry</option>
+                                <option value="flooring">Flooring Installation</option>
+                                <option value="accessible">Accessible Bathroom</option>
+                                <option value="other">Other / Multiple Services</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 25px;">
+                            <label
+                                style="display: block; margin-bottom: 8px; font-weight: 600; color: var(--text-dark);">
+                                <i class="fas fa-comment-alt"
+                                    style="color: var(--primary-green); margin-right: 8px;"></i>Project
+                                Details
+                            </label>
                             <textarea
-                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; height: 100px;"
-                                placeholder="How can we help?"></textarea>
+                                style="width: 100%; padding: 12px 15px; border: 2px solid #e0e0e0; border-radius: 8px; height: 120px; font-size: 1rem; resize: vertical; transition: border-color 0.3s ease;"
+                                placeholder="Tell us about your project... What are you looking to remodel? Any specific ideas or requirements?"
+                                onfocus="this.style.borderColor='var(--primary-green)'"
+                                onblur="this.style.borderColor='#e0e0e0'"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+
+                        <button type="submit" class="btn btn-primary"
+                            style="width: 100%; padding: 15px; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                            <i class="fas fa-paper-plane"></i> Send Request
+                        </button>
+
+                        <p style="margin-top: 15px; font-size: 0.9rem; color: var(--text-light); text-align: center;">
+                            <i class="fas fa-lock" style="margin-right: 5px;"></i>Your information is secure and will
+                            never be shared.
+                        </p>
                     </form>
                 </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h2 style="color: var(--primary-green); margin-bottom: 20px; font-size: 2rem;">Contact Information
+                    </h2>
+                    <p style="color: var(--text-light); margin-bottom: 30px; line-height: 1.7;">We're here to help with
+                        all your home remodeling needs. Reach out to us through any of the methods below.</p>
+
+                    <!-- Business Hours -->
+                    <div
+                        style="background: var(--white); padding: 30px; border-radius: 15px; margin-bottom: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+                        <h3 style="color: var(--text-dark); margin-bottom: 20px; font-size: 1.3rem;">
+                            <i class="fas fa-clock"
+                                style="color: var(--primary-green); margin-right: 10px;"></i>Business
+                            Hours
+                        </h3>
+                        <div style="display: grid; gap: 12px;">
+                            <div
+                                style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #f0f0f0;">
+                                <span style="color: var(--text-dark); font-weight: 600;">Monday - Friday</span>
+                                <span style="color: var(--text-light);">8:00 AM - 6:00 PM</span>
+                            </div>
+                            <div
+                                style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #f0f0f0;">
+                                <span style="color: var(--text-dark); font-weight: 600;">Saturday</span>
+                                <span style="color: var(--text-light);">9:00 AM - 4:00 PM</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; padding: 10px 0;">
+                                <span style="color: var(--text-dark); font-weight: 600;">Sunday</span>
+                                <span style="color: var(--text-light);">Closed</span>
+                            </div>
+                        </div>
+                        <p
+                            style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #f0f0f0; color: var(--text-light); font-size: 0.95rem;">
+                            <i class="fas fa-info-circle" style="color: var(--accent-yellow); margin-right: 5px;"></i>
+                            Emergency services available by appointment
+                        </p>
+                    </div>
+
+                    <!-- Service Area -->
+                    <div
+                        style="background: var(--white); padding: 30px; border-radius: 15px; margin-bottom: 25px; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
+                        <h3 style="color: var(--text-dark); margin-bottom: 20px; font-size: 1.3rem;">
+                            <i class="fas fa-map-marked-alt"
+                                style="color: var(--primary-green); margin-right: 10px;"></i>Service Area
+                        </h3>
+                        <p style="color: var(--text-light); margin-bottom: 15px; line-height: 1.7;">We proudly serve
+                            homeowners throughout Salt Lake County, including:</p>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                            <div style="color: var(--text-dark);">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--accent-yellow); margin-right: 8px;"></i>West Jordan
+                            </div>
+                            <div style="color: var(--text-dark);">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--accent-yellow); margin-right: 8px;"></i>South Jordan
+                            </div>
+                            <div style="color: var(--text-dark);">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--accent-yellow); margin-right: 8px;"></i>Riverton
+                            </div>
+                            <div style="color: var(--text-dark);">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--accent-yellow); margin-right: 8px;"></i>Herriman
+                            </div>
+                            <div style="color: var(--text-dark);">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--accent-yellow); margin-right: 8px;"></i>Draper
+                            </div>
+                            <div style="color: var(--text-dark);">
+                                <i class="fas fa-check-circle"
+                                    style="color: var(--accent-yellow); margin-right: 8px;"></i>Sandy
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Why Contact Us -->
+                    <div
+                        style="background: var(--bg-green-tint); padding: 30px; border-radius: 15px; border-left: 4px solid var(--primary-green);">
+                        <h3 style="color: var(--primary-green); margin-bottom: 15px; font-size: 1.2rem;">
+                            <i class="fas fa-star" style="margin-right: 10px;"></i>Why Choose Us?
+                        </h3>
+                        <ul style="list-style: none; padding: 0; margin: 0;">
+                            <li
+                                style="color: var(--text-dark); margin-bottom: 10px; padding-left: 25px; position: relative;">
+                                <i class="fas fa-award"
+                                    style="color: var(--accent-yellow); position: absolute; left: 0; top: 3px;"></i>
+                                Licensed & Insured Contractor
+                            </li>
+                            <li
+                                style="color: var(--text-dark); margin-bottom: 10px; padding-left: 25px; position: relative;">
+                                <i class="fas fa-handshake"
+                                    style="color: var(--accent-yellow); position: absolute; left: 0; top: 3px;"></i>
+                                Free, No-Obligation Estimates
+                            </li>
+                            <li
+                                style="color: var(--text-dark); margin-bottom: 10px; padding-left: 25px; position: relative;">
+                                <i class="fas fa-users"
+                                    style="color: var(--accent-yellow); position: absolute; left: 0; top: 3px;"></i>
+                                10+ Years Experience
+                            </li>
+                            <li style="color: var(--text-dark); padding-left: 25px; position: relative;">
+                                <i class="fas fa-thumbs-up"
+                                    style="color: var(--accent-yellow); position: absolute; left: 0; top: 3px;"></i>
+                                Hundreds of Satisfied Customers
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section
+        style="padding: 80px 0; text-align: center; background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-dark) 100%); color: var(--white);">
+        <div class="container">
+            <h2 style="color: var(--white); font-size: 2.5rem; margin-bottom: 20px;">Ready to Get Started?</h2>
+            <p
+                style="font-size: 1.2rem; margin-bottom: 40px; opacity: 0.95; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Don't wait to transform your home. Contact us today and let's discuss your remodeling vision!</p>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+                <a href="tel:8015551234" class="btn btn-secondary"
+                    style="padding: 15px 40px; font-size: 1.1rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-phone-alt"></i> Call (801) 555-1234
+                </a>
+                <a href="mailto:info@urbandesignremodel.com" class="btn"
+                    style="background: var(--white); color: var(--primary-green); padding: 15px 40px; font-size: 1.1rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-envelope"></i> Email Us
+                </a>
             </div>
         </div>
     </section>
@@ -103,15 +382,13 @@
     <!-- Footer -->
     <footer class="aw-footer">
         <div class="container aw-footer-inner">
-
-            <!-- Brand -->
             <div class="aw-footer-brand">
-                <h3>Urban Design & <span>Remodel</span></h3>
+                <img src="../images/logo.png" alt="Urban Design & Remodel" style="height: 60px; width: auto; margin-bottom: 15px;">
+                <h3 style="display: none;">Urban Design & <span>Remodel</span></h3>
                 <p><strong>Home Remodeling Contractor</strong></p>
                 <p>Your trusted local remodeling partner in West Jordan, UT.</p>
             </div>
 
-            <!-- Contact -->
             <div class="aw-footer-contact">
                 <p class="aw-footer-phone">
                     <span>📞</span>
@@ -119,28 +396,29 @@
                 </p>
                 <p class="aw-footer-address">
                     <span>📍</span>
-                    <a href="https://www.google.com/maps/search/?api=1&query=Urban+Design+%26+Remodel+West+Jordan+UT"
-                        target="_blank">West Jordan, UT</a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=West+Jordan+UT" target="_blank">West
+                        Jordan, UT</a>
                 </p>
                 <p class="aw-footer-email">
-                    Professional home remodeling serving West Jordan, South Jordan, Riverton & Salt Lake County
+                    Professional home remodeling serving West Jordan, South Jordan, Riverton & all of Salt Lake County
+                </p>
+                <p style="margin-top: 10px; font-size: 0.9rem;">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Urban+Design+%26+Remodel+West+Jordan+UT" target="_blank" rel="noopener" style="color: var(--text-light); text-decoration: none;">Google Business Profile</a>
                 </p>
             </div>
 
-            <!-- Services -->
             <div class="aw-footer-services">
                 <h4>Our Services</h4>
                 <ul>
-                    <li><a href="/services/">Kitchen Remodeling</a></li>
-                    <li><a href="/services/">Bathroom Renovation</a></li>
-                    <li><a href="/services/">Basement Finishing</a></li>
-                    <li><a href="/services/">Home Additions</a></li>
-                    <li><a href="/services/">Custom Cabinetry</a></li>
-                    <li><a href="/services/">Flooring Installation</a></li>
+                    <li><a href="/services/kitchen-remodeling/">Kitchen Remodeling</a></li>
+                    <li><a href="/services/luxury-bathroom-renovation/">Bathroom Renovation</a></li>
+                    <li><a href="/services/basement-finishing/">Basement Finishing</a></li>
+                    <li><a href="/services/custom-cabinetry/">Custom Cabinetry</a></li>
+                    <li><a href="/services/flooring-installation/">Flooring Installation</a></li>
+                    <li><a href="/services/accessible-bathroom-walk-ins/">Accessible Bathrooms</a></li>
                 </ul>
             </div>
 
-            <!-- Locations -->
             <div class="aw-footer-locations">
                 <h4>Service Areas</h4>
                 <ul>
@@ -156,13 +434,14 @@
                     services.
                 </p>
             </div>
-
         </div>
 
-        <!-- Bottom Bar -->
         <div class="aw-footer-bottom">
             <p>© <span id="year"></span> Urban Design & Remodel. All rights reserved. | Licensed Home Remodeling
                 Contractor serving West Jordan, UT and surrounding areas.</p>
+            <p style="margin-top: 8px; font-size: 0.85rem; opacity: 0.8;">
+                Utah Contractor License #10146123-5501 | Verified through the <a href="https://secure.utah.gov/llv/search/index.html" target="_blank" rel="nofollow noopener" style="color: inherit; text-decoration: underline;">Utah Division of Professional Licensing</a>
+            </p>
         </div>
     </footer>
 
