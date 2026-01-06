@@ -1,14 +1,19 @@
 :root {
-    /* Waste Management Inspired Theme */
-    --primary-green: #00713D;
-    --primary-dark: #004d29;
-    --accent-yellow: #FFD200;
+    /* Urban Design & Remodel Theme - Orange & Black */
+    --primary-green: #FF6B35;
+    /* Primary Orange */
+    --primary-dark: #1A1A1A;
+    /* Black */
+    --accent-yellow: #FF8C42;
+    /* Accent Orange (lighter) */
+    --primary-gold: #FF6B35;
+    /* Orange for accents */
     --text-dark: #1A1A1A;
     --text-light: #666666;
     --white: #ffffff;
     --bg-light: #F9F9F9;
-    --bg-green-tint: #E8F5E9;
-    /* Light green for sections */
+    --bg-green-tint: #FFF5F0;
+    /* Light orange tint for sections */
 
     /* Fonts */
     --font-heading: 'Poppins', sans-serif;
