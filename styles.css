@@ -1287,6 +1287,12 @@ footer {
     min-width: 250px;
 }
 
+.aw-footer-brand img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
 .aw-footer-brand h3 {
     font-size: 1.8rem;
     color: var(--white);
@@ -1313,6 +1319,17 @@ footer {
 
 .aw-footer-phone a {
     color: var(--accent-yellow);
+}
+
+.aw-footer-address {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.aw-footer-email {
+    line-height: 1.6;
 }
 
 .aw-footer-services {
@@ -1391,6 +1408,26 @@ footer {
     .aw-footer-inner {
         flex-direction: column;
         gap: 30px;
+        text-align: center;
+    }
+
+    .aw-footer-brand {
+        text-align: center;
+    }
+
+    .aw-footer-brand img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .aw-footer-phone,
+    .aw-footer-address {
+        justify-content: center;
+    }
+
+    .aw-footer-contact {
+        text-align: center;
     }
 }
 
