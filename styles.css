@@ -124,8 +124,16 @@ header .container {
     font-weight: 800;
     color: var(--primary-green);
     z-index: 1001;
+    display: flex;
+    align-items: center;
     /* Border effect for better visibility */
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    display: block;
 }
 
 .logo span {
