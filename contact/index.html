@@ -99,48 +99,30 @@
                     needs</p>
             </div>
 
-            <div
-                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 50px; max-width: 1200px; margin-left: auto; margin-right: auto;">
+            <div class="contact-methods-grid">
                 <!-- Phone -->
-                <a href="tel:8014401952"
-                    style="background: var(--bg-green-tint); padding: 40px; border-radius: 15px; text-align: center; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;"
-                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'"
-                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
-                    <div style="font-size: 3rem; color: var(--primary-green); margin-bottom: 15px;"><i
-                            class="fas fa-phone-alt"></i></div>
-                    <h3 style="color: var(--text-dark); margin-bottom: 10px; font-size: 1.3rem;">Call Us</h3>
-                    <p style="color: var(--primary-green); font-size: 1.4rem; font-weight: 700; margin: 10px 0;">
-                        (801) 440-1952</p>
-                    <p style="color: var(--text-light); margin: 0; font-size: 0.95rem;">Mon-Fri: 8am-6pm<br>Sat:
-                        9am-4pm</p>
+                <a href="tel:8014401952" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Call Us</h3>
+                    <p class="contact-card-info">(801) 440-1952</p>
+                    <p class="contact-card-sub">Mon-Fri: 8am-6pm<br>Sat: 9am-4pm</p>
                 </a>
 
                 <!-- Email -->
-                <a href="mailto:info@urbandesignremodel.com"
-                    style="background: var(--bg-green-tint); padding: 40px; border-radius: 15px; text-align: center; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;"
-                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'"
-                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
-                    <div style="font-size: 3rem; color: var(--primary-green); margin-bottom: 15px;"><i
-                            class="fas fa-envelope"></i></div>
-                    <h3 style="color: var(--text-dark); margin-bottom: 10px; font-size: 1.3rem;">Email Us</h3>
-                    <p style="color: var(--primary-green); font-size: 1.2rem; font-weight: 600; margin: 10px 0;">
-                        info@urbandesignremodel.com</p>
-                    <p style="color: var(--text-light); margin: 0; font-size: 0.95rem;">We respond within 24 hours</p>
+                <a href="mailto:info@urbandesignremodel.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email Us</h3>
+                    <p class="contact-card-info email">info@urbandesignremodel.com</p>
+                    <p class="contact-card-sub">We respond within 24 hours</p>
                 </a>
 
                 <!-- Google My Business -->
                 <a href="https://www.google.com/maps/search/?api=1&query=Urban+Design+%26+Remodel+West+Jordan+UT"
-                    target="_blank" rel="noopener noreferrer"
-                    style="background: var(--bg-green-tint); padding: 40px; border-radius: 15px; text-align: center; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease; display: block;"
-                    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.1)'"
-                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
-                    <div style="font-size: 3rem; color: var(--primary-green); margin-bottom: 15px;"><i
-                            class="fab fa-google"></i></div>
-                    <h3 style="color: var(--text-dark); margin-bottom: 10px; font-size: 1.3rem;">Find Us on Google</h3>
-                    <p style="color: var(--primary-green); font-size: 1.1rem; font-weight: 600; margin: 10px 0;">View
-                        Our Business</p>
-                    <p style="color: var(--text-light); margin: 0; font-size: 0.95rem;">Read reviews & get directions
-                    </p>
+                    target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-google"></i></div>
+                    <h3>Find Us on Google</h3>
+                    <p class="contact-card-info location">View Our Business</p>
+                    <p class="contact-card-sub">Read reviews & get directions</p>
                 </a>
             </div>
         </div>
@@ -149,7 +131,7 @@
     <!-- Contact Form & Info -->
     <section style="padding: 80px 0; background: var(--bg-light);">
         <div class="container">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; max-width: 1200px; margin: 0 auto;">
+            <div class="contact-content-grid">
                 <!-- Contact Form -->
                 <div>
                     <h2 style="color: var(--primary-green); margin-bottom: 20px; font-size: 2rem;">Request a Free
@@ -293,7 +275,7 @@
                         </h3>
                         <p style="color: var(--text-light); margin-bottom: 15px; line-height: 1.7;">We proudly serve
                             homeowners throughout Salt Lake County, including:</p>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                        <div class="service-area-list">
                             <div style="color: var(--text-dark);">
                                 <i class="fas fa-check-circle"
                                     style="color: var(--accent-yellow); margin-right: 8px;"></i>West Jordan
@@ -403,7 +385,9 @@
                     Professional home remodeling serving West Jordan, South Jordan, Riverton & all of Salt Lake County
                 </p>
                 <p style="margin-top: 10px; font-size: 0.9rem;">
-                    <a href="https://www.google.com/maps/search/?api=1&query=Urban+Design+%26+Remodel+West+Jordan+UT" target="_blank" rel="noopener" style="color: var(--text-light); text-decoration: none;">Google Business Profile</a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Urban+Design+%26+Remodel+West+Jordan+UT"
+                        target="_blank" rel="noopener" style="color: var(--text-light); text-decoration: none;">Google
+                        Business Profile</a>
                 </p>
             </div>
 
@@ -440,7 +424,9 @@
             <p>© <span id="year"></span> Urban Design & Remodel. All rights reserved. | Licensed Home Remodeling
                 Contractor serving West Jordan, UT and surrounding areas.</p>
             <p style="margin-top: 8px; font-size: 0.85rem; opacity: 0.8;">
-                Utah Contractor License #10146123-5501 | Verified through the <a href="https://secure.utah.gov/llv/search/index.html" target="_blank" rel="nofollow noopener" style="color: inherit; text-decoration: underline;">Utah Division of Professional Licensing</a>
+                Utah Contractor License #10146123-5501 | Verified through the <a
+                    href="https://secure.utah.gov/llv/search/index.html" target="_blank" rel="nofollow noopener"
+                    style="color: inherit; text-decoration: underline;">Utah Division of Professional Licensing</a>
             </p>
         </div>
     </footer>
