@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/spreaeb3/public_html/urbanhomeremodel
+    - /bin/rm -rf $DEPLOYPATH/*
+    - /bin/cp -R ./ $DEPLOYPATH
